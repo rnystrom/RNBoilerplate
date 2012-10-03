@@ -129,6 +129,18 @@ Again credit goes to [@steipete](https://github.com/steipete) as I just copied U
 @end
 ```
 
+### NSObject+AutoKeyValue
+
+Inspiration for this came from [CIMGF](http://www.cimgf.com/2012/01/11/handling-incoming-json-redux/).
+
+``` objective-c
+@interface NSObject (AutoKeyValue)
+
+- (void)setValuesForKeysWithJSONDictionary:(NSDictionary *)keyedValues dateFormatter:(NSDateFormatter *)dateFormatter;
+
+@end
+```
+
 ## Contact
 
 * [@nystrorm](https://twitter.com/nystrorm) on Twitter

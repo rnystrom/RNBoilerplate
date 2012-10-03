@@ -70,6 +70,7 @@
 		8606B9DA161BD13C00BA86EE /* MBProgressHud+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9D6161BD13C00BA86EE /* MBProgressHud+UIViewController.m */; };
 		8606B9DB161BD13C00BA86EE /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9D8161BD13C00BA86EE /* UIView+Sizes.m */; };
 		8606B9E3161BD7ED00BA86EE /* UIImage+AlteringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */; };
+		86974CDA161CD632006D56A2 /* NSObject+AutoKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86974CD9161CD632006D56A2 /* NSObject+AutoKeyValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,8 @@
 		8606B9DC161BD15F00BA86EE /* RNCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCategories.h; sourceTree = "<group>"; };
 		8606B9E1161BD7ED00BA86EE /* UIImage+AlteringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlteringUtilities.h"; sourceTree = "<group>"; };
 		8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlteringUtilities.m"; sourceTree = "<group>"; };
+		86974CD8161CD632006D56A2 /* NSObject+AutoKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoKeyValue.h"; sourceTree = "<group>"; };
+		86974CD9161CD632006D56A2 /* NSObject+AutoKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoKeyValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +272,7 @@
 		86034119161BB7380062F38D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				86974CC8161CCF3D006D56A2 /* Abstract */,
 				860341EF161BC0830062F38D /* Application */,
 				8606B9D2161BD13C00BA86EE /* Categories */,
 				860341FA161BC0A10062F38D /* Misc */,
@@ -481,8 +485,17 @@
 				8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */,
 				8606B9D7161BD13C00BA86EE /* UIView+Sizes.h */,
 				8606B9D8161BD13C00BA86EE /* UIView+Sizes.m */,
+				86974CD8161CD632006D56A2 /* NSObject+AutoKeyValue.h */,
+				86974CD9161CD632006D56A2 /* NSObject+AutoKeyValue.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		86974CC8161CCF3D006D56A2 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Abstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -629,6 +642,7 @@
 				8606B9DA161BD13C00BA86EE /* MBProgressHud+UIViewController.m in Sources */,
 				8606B9DB161BD13C00BA86EE /* UIView+Sizes.m in Sources */,
 				8606B9E3161BD7ED00BA86EE /* UIImage+AlteringUtilities.m in Sources */,
+				86974CDA161CD632006D56A2 /* NSObject+AutoKeyValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
