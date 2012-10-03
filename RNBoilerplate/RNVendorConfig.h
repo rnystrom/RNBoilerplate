@@ -9,12 +9,15 @@
 #ifndef RNBoilerplate_RNVendorConfig_h
 #define RNBoilerplate_RNVendorConfig_h
 
-#define kFlurryAPIKey @"4K55G53BXN6FTX7C4DRV"
+#error "Add Flurry API Key or comment out"
+#define kFlurryAPIKey @""
 
-#define kTestFlightAPIKey @"aa3e87ac78c2988b0875952625db6f4d_MTM4Nzk1MjAxMi0xMC0wMiAyMTowMzowMC42OTgxMTg"
+#error "Add Testflight API Key or comment out"
+#define kTestFlightAPIKey @""
 
-#define kParseAPIKey @"kpxXW6e7lCUhazhulbcKwv3ovFLeix6v3Swez5aO"
-#define kParseClientKey @"6kySoUV8hWQ8Sg8tRPte1yGsa4XZBYy8BA7s1Sdp"
+#error "Add Parse API Key or comment out"
+#define kParseAPIKey @""
+#define kParseClientKey @""
 
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
