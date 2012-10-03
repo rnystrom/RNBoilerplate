@@ -7,11 +7,11 @@ RNBoilerplate is my solution to reusing structure, categories, configs, and thir
 
 Slowly double-click on the project name to rename your working project.
 
-<center><img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/rename.png?raw=true" /></center>
+<div style="text-align:center"><img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/rename.png?raw=true" /></div>
 
 Click on your scheme and click Manage Schemes. Add a new scheme using your newly named project and remove the old one.
 
-<center><img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/scheme.png?raw=true" /></center>
+<div style="text-align:center"><img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/scheme.png?raw=true" /></div>
 
 If the physical folder structure bothers you, take a look at [this SO question](http://stackoverflow.com/questions/8262613/renaming-xcode-4-project-and-the-actual-folder) for instructions on how to change it. Make sure you rename your unit test files if you do this or else you will run into headaches.
 
