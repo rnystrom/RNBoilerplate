@@ -23,27 +23,17 @@
  * SOFTWARE.
  */
 
-#import "RNBoilerplateTests.h"
+#import <UIKit/UIKit.h>
 
-@implementation RNBoilerplateTests
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
-}
+@property (strong, nonatomic) UIWindow *window;
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in RNBoilerplateTests");
-}
+- (void)saveContext;
+- (NSURL *)applicationDocumentsDirectory;
 
 @end

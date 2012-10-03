@@ -13,7 +13,7 @@
 		86034118161BB7380062F38D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86034117161BB7380062F38D /* CoreData.framework */; };
 		8603411E161BB7380062F38D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8603411C161BB7380062F38D /* InfoPlist.strings */; };
 		86034120161BB7380062F38D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603411F161BB7380062F38D /* main.m */; };
-		86034124161BB7380062F38D /* RNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86034123161BB7380062F38D /* RNAppDelegate.m */; };
+		86034124161BB7380062F38D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86034123161BB7380062F38D /* AppDelegate.m */; };
 		8603412D161BB7380062F38D /* RNBoilerplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8603412B161BB7380062F38D /* RNBoilerplate.xcdatamodeld */; };
 		86034135161BB7380062F38D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86034134161BB7380062F38D /* SenTestingKit.framework */; };
 		86034136161BB7380062F38D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86034111161BB7380062F38D /* UIKit.framework */; };
@@ -91,8 +91,8 @@
 		8603411D161BB7380062F38D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8603411F161BB7380062F38D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNBoilerplate/main.m; sourceTree = "<group>"; };
 		86034121161BB7380062F38D /* RNBoilerplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RNBoilerplate-Prefix.pch"; path = "RNBoilerplate/RNBoilerplate-Prefix.pch"; sourceTree = "<group>"; };
-		86034122161BB7380062F38D /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
-		86034123161BB7380062F38D /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
+		86034122161BB7380062F38D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86034123161BB7380062F38D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8603412C161BB7380062F38D /* RNBoilerplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RNBoilerplate.xcdatamodel; sourceTree = "<group>"; };
 		86034134161BB7380062F38D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8603413D161BB7380062F38D /* RNBoilerplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNBoilerplateTests-Info.plist"; sourceTree = "<group>"; };
@@ -406,8 +406,8 @@
 		860341EF161BC0830062F38D /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				86034122161BB7380062F38D /* RNAppDelegate.h */,
-				86034123161BB7380062F38D /* RNAppDelegate.m */,
+				86034122161BB7380062F38D /* AppDelegate.h */,
+				86034123161BB7380062F38D /* AppDelegate.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -608,7 +608,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86034120161BB7380062F38D /* main.m in Sources */,
-				86034124161BB7380062F38D /* RNAppDelegate.m in Sources */,
+				86034124161BB7380062F38D /* AppDelegate.m in Sources */,
 				8603412D161BB7380062F38D /* RNBoilerplate.xcdatamodeld in Sources */,
 				86034160161BBBF30062F38D /* AFHTTPClient.m in Sources */,
 				86034161161BBBF30062F38D /* AFHTTPRequestOperation.m in Sources */,
