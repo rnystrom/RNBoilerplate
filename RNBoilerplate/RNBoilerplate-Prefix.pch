@@ -9,7 +9,26 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-    #import <CoreData/CoreData.h>
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "DDLog.h"
+#import "DDASLLogger.h"
+#import "DDTTYLogger.h"
+#import "DDFileLogger.h"
+#import "RNVendorConfig.h"
+
+#ifdef kTestFlightAPIKey
+#import "TestFlight.h"
+#endif
+
+#ifdef kFlurryAPIKey
+#import "FlurryAnalytics.h"
+#endif
+
+#ifdef kParseAPIKey
+#import <Parse/Parse.h>
+#endif
+
 #endif

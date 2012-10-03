@@ -1,0 +1,15 @@
+[submodule "AFNetworking"]
+	path = AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "CocoaLumberjack"]
+	path = CocoaLumberjack
+	url = https://github.com/robbiehanson/CocoaLumberjack.git
+[submodule "specta"]
+	path = specta
+	url = https://github.com/petejkim/specta.git
+[submodule "SkyLab"]
+	path = SkyLab
+	url = https://github.com/mattt/SkyLab.git
+[submodule "MBProgressHUD"]
+	path = MBProgressHUD
+	url = https://github.com/jdg/MBProgressHUD.git

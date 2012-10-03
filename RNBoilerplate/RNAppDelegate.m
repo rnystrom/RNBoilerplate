@@ -16,10 +16,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    // setup loggers
+    // https://github.com/robbiehanson/CocoaLumberjack/wiki/GettingStarted
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
+    // enable parse, if its setup
+    // https://parse.com/apps/quickstart#ios/blank
+#ifdef kParseAPIKey
+    DDLogVerbose(@"Loading Parse...");
+    [Parse setApplicationId:kParseAPIKey
+                  clientKey:kParseClientKey];
+    // TODO: Delete this after it is setup
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    [testObject setObject:@"bar" forKey:@"foo"];
+    [testObject save];
+#endif
+    
+    // setup testflight
+    // https://testflightapp.com/sdk/doc/1.1/
+#ifdef kTestFlightAPIKey
+    DDLogVerbose(@"Loading Testflight...");
+    [TestFlight takeOff:kTestFlightAPIKey];
+#endif
+    
+    // setup flurry analytics
+#ifdef kFlurryAPIKey
+    DDLogVerbose(@"Loading Flurry...");
+    [FlurryAnalytics startSession:kFlurryAPIKey];
+#endif
+    
     return YES;
 }
 
