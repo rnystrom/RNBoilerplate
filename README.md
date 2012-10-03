@@ -7,11 +7,11 @@ RNBoilerplate is my solution to reusing structure, categories, configs, and thir
 
 Slowly double-click on the project name to rename your working project.
 
-<img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/rename.png?raw=true" />
+<center><img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/rename.png?raw=true" /></center>
 
 Click on your scheme and click Manage Schemes. Add a new scheme using your newly named project and remove the old one.
 
-<img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/scheme.png?raw=true" />
+<center><img src="https://github.com/rnystrom/RNBoilerplate/blob/public/images/scheme.png?raw=true" /></center>
 
 If the physical folder structure bothers you, take a look at [this SO question](http://stackoverflow.com/questions/8262613/renaming-xcode-4-project-and-the-actual-folder) for instructions on how to change it. Make sure you rename your unit test files if you do this or else you will run into headaches.
 
@@ -61,19 +61,21 @@ I added a few useful categories that have helped me out tremendously. It's likel
 
 Credit goes to [@steipete](https://github.com/steipete).
 
-    @interface UIView (Sizes)
+``` objective-c
+@interface UIView (Sizes)
 
-    @property (nonatomic) CGFloat left;
-    @property (nonatomic) CGFloat top;
-    @property (nonatomic) CGFloat right;
-    @property (nonatomic) CGFloat bottom;
-    @property (nonatomic) CGFloat width;
-    @property (nonatomic) CGFloat height;
+@property (nonatomic) CGFloat left;
+@property (nonatomic) CGFloat top;
+@property (nonatomic) CGFloat right;
+@property (nonatomic) CGFloat bottom;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
 
-    @property (nonatomic) CGPoint origin;
-    @property (nonatomic) CGSize size;
+@property (nonatomic) CGPoint origin;
+@property (nonatomic) CGSize size;
 
-    @end
+@end
+```
 
 ### CALayer+Sizes
 
