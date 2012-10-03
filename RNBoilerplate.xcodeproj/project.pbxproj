@@ -66,6 +66,10 @@
 		8603422D161BC45A0062F38D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8603422C161BC45A0062F38D /* Social.framework */; };
 		8603422F161BC4600062F38D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8603422E161BC4600062F38D /* StoreKit.framework */; };
 		86034231161BC4660062F38D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86034230161BC4660062F38D /* SystemConfiguration.framework */; };
+		8606B9D9161BD13C00BA86EE /* CALayer+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9D4161BD13C00BA86EE /* CALayer+Sizes.m */; };
+		8606B9DA161BD13C00BA86EE /* MBProgressHud+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9D6161BD13C00BA86EE /* MBProgressHud+UIViewController.m */; };
+		8606B9DB161BD13C00BA86EE /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9D8161BD13C00BA86EE /* UIView+Sizes.m */; };
+		8606B9E3161BD7ED00BA86EE /* UIImage+AlteringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +94,6 @@
 		86034122161BB7380062F38D /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
 		86034123161BB7380062F38D /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
 		8603412C161BB7380062F38D /* RNBoilerplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RNBoilerplate.xcdatamodel; sourceTree = "<group>"; };
-		86034133161BB7380062F38D /* RNBoilerplateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RNBoilerplateTests.octest; path = "/Users/curiosity/Dev/Xcode/RNBoilerplate/build/Release-iphoneos/RNBoilerplateTests.octest"; sourceTree = "<absolute>"; };
 		86034134161BB7380062F38D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8603413D161BB7380062F38D /* RNBoilerplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNBoilerplateTests-Info.plist"; sourceTree = "<group>"; };
 		8603413F161BB7380062F38D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -161,6 +164,16 @@
 		8603422C161BC45A0062F38D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		8603422E161BC4600062F38D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		86034230161BC4660062F38D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8606B9C2161BD01F00BA86EE /* RNBoilerplateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBoilerplateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8606B9D3161BD13C00BA86EE /* CALayer+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Sizes.h"; sourceTree = "<group>"; };
+		8606B9D4161BD13C00BA86EE /* CALayer+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Sizes.m"; sourceTree = "<group>"; };
+		8606B9D5161BD13C00BA86EE /* MBProgressHud+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHud+UIViewController.h"; sourceTree = "<group>"; };
+		8606B9D6161BD13C00BA86EE /* MBProgressHud+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHud+UIViewController.m"; sourceTree = "<group>"; };
+		8606B9D7161BD13C00BA86EE /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		8606B9D8161BD13C00BA86EE /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
+		8606B9DC161BD15F00BA86EE /* RNCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCategories.h; sourceTree = "<group>"; };
+		8606B9E1161BD7ED00BA86EE /* UIImage+AlteringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlteringUtilities.h"; sourceTree = "<group>"; };
+		8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlteringUtilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +237,7 @@
 				8603411C161BB7380062F38D /* InfoPlist.strings */,
 				8603411F161BB7380062F38D /* main.m */,
 				86034121161BB7380062F38D /* RNBoilerplate-Prefix.pch */,
+				8606B9C2161BD01F00BA86EE /* RNBoilerplateTests.octest */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -231,23 +245,23 @@
 		86034110161BB7380062F38D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				86034230161BC4660062F38D /* SystemConfiguration.framework */,
-				8603422E161BC4600062F38D /* StoreKit.framework */,
-				8603422C161BC45A0062F38D /* Social.framework */,
-				8603422A161BC4540062F38D /* Security.framework */,
-				86034228161BC44E0062F38D /* QuartzCore.framework */,
-				86034226161BC4480062F38D /* MobileCoreServices.framework */,
-				86034224161BC4430062F38D /* libz.1.1.3.dylib */,
-				86034222161BC43A0062F38D /* libsqlite3.dylib */,
-				86034220161BC42C0062F38D /* CFNetwork.framework */,
-				8603421E161BC4260062F38D /* AdSupport.framework */,
 				8603421C161BC4210062F38D /* Accounts.framework */,
+				8603421E161BC4260062F38D /* AdSupport.framework */,
 				8603421A161BC41A0062F38D /* AudioToolbox.framework */,
-				86034111161BB7380062F38D /* UIKit.framework */,
-				86034113161BB7380062F38D /* Foundation.framework */,
-				86034115161BB7380062F38D /* CoreGraphics.framework */,
+				86034220161BC42C0062F38D /* CFNetwork.framework */,
 				86034117161BB7380062F38D /* CoreData.framework */,
+				86034115161BB7380062F38D /* CoreGraphics.framework */,
+				86034113161BB7380062F38D /* Foundation.framework */,
+				86034222161BC43A0062F38D /* libsqlite3.dylib */,
+				86034224161BC4430062F38D /* libz.1.1.3.dylib */,
+				86034226161BC4480062F38D /* MobileCoreServices.framework */,
+				86034228161BC44E0062F38D /* QuartzCore.framework */,
+				8603422A161BC4540062F38D /* Security.framework */,
 				86034134161BB7380062F38D /* SenTestingKit.framework */,
+				8603422C161BC45A0062F38D /* Social.framework */,
+				8603422E161BC4600062F38D /* StoreKit.framework */,
+				86034230161BC4660062F38D /* SystemConfiguration.framework */,
+				86034111161BB7380062F38D /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				860341EF161BC0830062F38D /* Application */,
-				860341F9161BC0940062F38D /* Categories */,
+				8606B9D2161BD13C00BA86EE /* Categories */,
 				860341FA161BC0A10062F38D /* Misc */,
 				860341FC161BC0AB0062F38D /* ViewControllers */,
 				860341FB161BC0A70062F38D /* Views */,
@@ -268,11 +282,11 @@
 		8603411A161BB7380062F38D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				860341FE161BC0CF0062F38D /* Graphics */,
 				860341E5161BBFBA0062F38D /* MainStoryboard_iPad.storyboard */,
 				860341E6161BBFBA0062F38D /* MainStoryboard_iPhone.storyboard */,
-				8603412B161BB7380062F38D /* RNBoilerplate.xcdatamodeld */,
 				8603411B161BB7380062F38D /* RNBoilerplate-Info.plist */,
-				860341FE161BC0CF0062F38D /* Graphics */,
+				8603412B161BB7380062F38D /* RNBoilerplate.xcdatamodeld */,
 			);
 			name = Resources;
 			path = RNBoilerplate;
@@ -378,13 +392,13 @@
 		86034195161BBD620062F38D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				86034190161BBCD90062F38D /* FlurryAnalytics */,
-				8603418E161BBC860062F38D /* Parse.framework */,
-				8603418D161BBC780062F38D /* TestFlight */,
-				86034189161BBC3C0062F38D /* SkyLab */,
-				86034185161BBC270062F38D /* MBProgressHUD */,
-				86034181161BBC110062F38D /* Lumberjack */,
 				8603414C161BBBF30062F38D /* AFNetworking */,
+				86034190161BBCD90062F38D /* FlurryAnalytics */,
+				86034181161BBC110062F38D /* Lumberjack */,
+				86034185161BBC270062F38D /* MBProgressHUD */,
+				8603418E161BBC860062F38D /* Parse.framework */,
+				86034189161BBC3C0062F38D /* SkyLab */,
+				8603418D161BBC780062F38D /* TestFlight */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -396,13 +410,6 @@
 				86034123161BB7380062F38D /* RNAppDelegate.m */,
 			);
 			name = Application;
-			sourceTree = "<group>";
-		};
-		860341F9161BC0940062F38D /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Categories;
 			sourceTree = "<group>";
 		};
 		860341FA161BC0A10062F38D /* Misc */ = {
@@ -462,6 +469,22 @@
 			name = System;
 			sourceTree = "<group>";
 		};
+		8606B9D2161BD13C00BA86EE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8606B9D3161BD13C00BA86EE /* CALayer+Sizes.h */,
+				8606B9D4161BD13C00BA86EE /* CALayer+Sizes.m */,
+				8606B9D5161BD13C00BA86EE /* MBProgressHud+UIViewController.h */,
+				8606B9D6161BD13C00BA86EE /* MBProgressHud+UIViewController.m */,
+				8606B9DC161BD15F00BA86EE /* RNCategories.h */,
+				8606B9E1161BD7ED00BA86EE /* UIImage+AlteringUtilities.h */,
+				8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */,
+				8606B9D7161BD13C00BA86EE /* UIView+Sizes.h */,
+				8606B9D8161BD13C00BA86EE /* UIView+Sizes.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -498,7 +521,7 @@
 			);
 			name = RNBoilerplateTests;
 			productName = RNBoilerplateTests;
-			productReference = 86034133161BB7380062F38D /* RNBoilerplateTests.octest */;
+			productReference = 8606B9C2161BD01F00BA86EE /* RNBoilerplateTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -602,6 +625,10 @@
 				86034180161BBC0C0062F38D /* DDTTYLogger.m in Sources */,
 				86034184161BBC230062F38D /* MBProgressHUD.m in Sources */,
 				86034188161BBC380062F38D /* SkyLab.m in Sources */,
+				8606B9D9161BD13C00BA86EE /* CALayer+Sizes.m in Sources */,
+				8606B9DA161BD13C00BA86EE /* MBProgressHud+UIViewController.m in Sources */,
+				8606B9DB161BD13C00BA86EE /* UIView+Sizes.m in Sources */,
+				8606B9E3161BD7ED00BA86EE /* UIImage+AlteringUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +817,7 @@
 				86034148161BB7380062F38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86034149161BB7380062F38D /* Build configuration list for PBXNativeTarget "RNBoilerplateTests" */ = {
 			isa = XCConfigurationList;
@@ -798,6 +826,7 @@
 				8603414B161BB7380062F38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

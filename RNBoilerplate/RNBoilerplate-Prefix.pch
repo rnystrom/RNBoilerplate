@@ -18,6 +18,7 @@
 #import "DDTTYLogger.h"
 #import "DDFileLogger.h"
 #import "RNVendorConfig.h"
+#import "RNCategories.h"
 
 #ifdef kTestFlightAPIKey
 #import "TestFlight.h"
