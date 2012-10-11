@@ -26,11 +26,16 @@
 #ifndef RNBoilerplate_RNVendorConfig_h
 #define RNBoilerplate_RNVendorConfig_h
 
+// uncomment for dev/testing mode
+#define PROJECT_PRODUCTION_MODE 0
+
 #error "Add Flurry API Key or comment out"
 #define kFlurryAPIKey @""
 
+#ifndef PROJECT_PRODUCTION_MODE
 #error "Add Testflight API Key or comment out"
 #define kTestFlightAPIKey @""
+#endif
 
 #error "Add Parse API Key or comment out"
 #define kParseAPIKey @""
