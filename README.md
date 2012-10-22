@@ -53,6 +53,16 @@ Another great project from [@mattt](https://github.com/mattt). Paired with Testf
 
 I've included the files for this tool, but not included it in the actual project as it can be included via [CocoaPods](https://github.com/CocoaPods/CocoaPods). However, if you need to install it manually the resources are there. Check out [the docs](https://github.com/petejkim/specta) for instructions. Unit tests are included by default and this extends the utility of doing those tests.
 
+## Helpers
+
+### [PSPDFHangDetector](https://gist.github.com/3933090)
+
+This is a simple tool created by [Peter Steinberger](http://twitter.com/steipete) that monitors the main thread for any activity that might be taking too much time, thus slowing down your app. Only enabled in non-production mode.
+
+### [MSVCLeakHunter](https://github.com/mindsnacks/MSVCLeakHunter)
+
+Monitor your view controllers and get warnings when your VCs were *not* deallocated. Sometimes blocks will capture your VCs in a retain cycle and you wont even notice. Only enabled in non-production mode.
+
 ## Categories
 
 I added a few useful categories that have helped me out tremendously. It's likely that I'll add more and more categories as I discover them. I recommend you think about what you need in your project when including categories. Just dropping in and importing hundres is not really a useful thing to do as you will become prone to difficult debugging challenges. I have a master category import file <code>RNCategories.h</code> that is included in the prefix-header. Here you can decide what should be included in the project. You can also add your own categories the same way.
