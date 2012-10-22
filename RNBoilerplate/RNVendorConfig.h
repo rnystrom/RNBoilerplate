@@ -27,7 +27,7 @@
 #define RNBoilerplate_RNVendorConfig_h
 
 // uncomment for dev/testing mode
-#define PROJECT_PRODUCTION_MODE 0
+//#define PROJECT_PRODUCTION_MODE 0
 
 #error "Add Flurry API Key or comment out"
 #define kFlurryAPIKey @""

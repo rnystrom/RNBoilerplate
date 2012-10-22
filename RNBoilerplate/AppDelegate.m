@@ -24,6 +24,8 @@
  */
 
 #import "AppDelegate.h"
+#import "PSPDFHangDetector.h"
+#import "MSVCLeakHunter.h"
 
 @implementation AppDelegate
 
@@ -61,6 +63,14 @@
 #ifdef kFlurryAPIKey
     DDLogVerbose(@"Loading Flurry...");
     [FlurryAnalytics startSession:kFlurryAPIKey];
+#endif
+    
+#ifndef PROJECT_PRODUCTION_MODE
+    // Test main-thread usage
+    [PSPDFHangDetector startHangDetector];
+    
+    // Test your VC deallocation
+    [MSVCLeakHunter install];
 #endif
     
     return YES;

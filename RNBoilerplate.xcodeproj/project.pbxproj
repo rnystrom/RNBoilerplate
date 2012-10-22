@@ -71,6 +71,7 @@
 		8606B9DB161BD13C00BA86EE /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9D8161BD13C00BA86EE /* UIView+Sizes.m */; };
 		8606B9E3161BD7ED00BA86EE /* UIImage+AlteringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */; };
 		86974CDA161CD632006D56A2 /* NSObject+AutoKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86974CD9161CD632006D56A2 /* NSObject+AutoKeyValue.m */; };
+		86D8DE0C1635D6230090CF28 /* MSVCLeakHunter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D8DE0A1635D6230090CF28 /* MSVCLeakHunter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +178,9 @@
 		8606B9E2161BD7ED00BA86EE /* UIImage+AlteringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlteringUtilities.m"; sourceTree = "<group>"; };
 		86974CD8161CD632006D56A2 /* NSObject+AutoKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoKeyValue.h"; sourceTree = "<group>"; };
 		86974CD9161CD632006D56A2 /* NSObject+AutoKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoKeyValue.m"; sourceTree = "<group>"; };
+		86D8DE091635D6230090CF28 /* MSVCLeakHunter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVCLeakHunter.h; sourceTree = "<group>"; };
+		86D8DE0A1635D6230090CF28 /* MSVCLeakHunter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVCLeakHunter.m; sourceTree = "<group>"; };
+		86D8DE0B1635D6230090CF28 /* PSPDFHangDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPDFHangDetector.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,7 +232,7 @@
 				8603410E161BB7380062F38D /* Other Sources */,
 				860341FD161BC0B50062F38D /* Products */,
 				8603411A161BB7380062F38D /* Resources */,
-				8603413B161BB7380062F38D /* RNBoilerplateTests */,
+				8603413B161BB7380062F38D /* Unit Tests */,
 				86034195161BBD620062F38D /* Vendor */,
 			);
 			sourceTree = "<group>";
@@ -296,13 +300,14 @@
 			path = RNBoilerplate;
 			sourceTree = "<group>";
 		};
-		8603413B161BB7380062F38D /* RNBoilerplateTests */ = {
+		8603413B161BB7380062F38D /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
 				86034141161BB7380062F38D /* RNBoilerplateTests.h */,
 				86034142161BB7380062F38D /* RNBoilerplateTests.m */,
 				8603413C161BB7380062F38D /* Supporting Files */,
 			);
+			name = "Unit Tests";
 			path = RNBoilerplateTests;
 			sourceTree = "<group>";
 		};
@@ -396,6 +401,9 @@
 		86034195161BBD620062F38D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				86D8DE091635D6230090CF28 /* MSVCLeakHunter.h */,
+				86D8DE0A1635D6230090CF28 /* MSVCLeakHunter.m */,
+				86D8DE0B1635D6230090CF28 /* PSPDFHangDetector.h */,
 				8603414C161BBBF30062F38D /* AFNetworking */,
 				86034190161BBCD90062F38D /* FlurryAnalytics */,
 				86034181161BBC110062F38D /* Lumberjack */,
@@ -643,6 +651,7 @@
 				8606B9DB161BD13C00BA86EE /* UIView+Sizes.m in Sources */,
 				8606B9E3161BD7ED00BA86EE /* UIImage+AlteringUtilities.m in Sources */,
 				86974CDA161CD632006D56A2 /* NSObject+AutoKeyValue.m in Sources */,
+				86D8DE0C1635D6230090CF28 /* MSVCLeakHunter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
